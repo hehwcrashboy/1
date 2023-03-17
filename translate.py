@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # 1. 在代码中设置您的 OpenAI API 密钥
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "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"
 
 # 2. 定义一个翻译函数，该函数接受一段文字和源语言和目标语言作为参数，并返回翻译后的文本。
 def translate(text, source_language, target_language):
